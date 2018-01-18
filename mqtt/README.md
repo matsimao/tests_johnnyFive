@@ -52,10 +52,10 @@ var client  = mqtt.connect('mqtt://m10.cloudmqtt.com', {
 ```
 
 * 1º parametro é a url da instância criada no CloudMqtt que será usado nesse exemplo é `mqtt://m10.cloudmqtt.com`.
-* 2º parametro será enviado um objeto contendo outros parametros necessarios para se connectar no `mqtt://m10.cloudmqtt.com`.  
+* 2º parametro será enviado um objeto contendo outros parametros necessarios para se conectar no `mqtt://m10.cloudmqtt.com`.  
 `username`: usuário que foi adicionado para ler e escrever no topico.  
 `password`: Senha do usuario.
-`port`: Porta da instância criada no MQTT.
+`port`: Porta da instância criada no MQTT.  
 (PS: Os parametros `username` e `password` não são da instancia, e sim do usuario criado para usar o topico na instancia)
 
 Outro exemplo simples que pode ser utilizado e com o test.mosquitto.org, o codigo ficaria da seguinte maneira.
